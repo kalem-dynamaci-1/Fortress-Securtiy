@@ -1,0 +1,20 @@
+.navy {
+  z-index: 1000;
+  opacity: 0.85;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.navy-black {
+  background-color: black;
+}
+
+.navy-black .nav-link {
+  color: white;
+}
+
+.nav-toggle {
+  background-color: white;
+}
