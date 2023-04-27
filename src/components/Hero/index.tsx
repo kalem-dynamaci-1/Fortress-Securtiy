@@ -18,6 +18,7 @@ function HeroSection() {
             integrated security management systems providing the latest in
             products and services in these fields.
           </p>
+
           <Button variant="outline-primary" className="p-3 mt-2">
             Contact Us
           </Button>
