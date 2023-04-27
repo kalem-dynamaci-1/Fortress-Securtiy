@@ -1,0 +1,15 @@
+.landing-about {
+  min-height: 80vh;
+  background-color: #f6f6f5;
+}
+
+.landing-row {
+  min-height: 80vh;
+}
+
+.landing-line {
+  height: 3px;
+  width: 80px;
+  border: none;
+  background-color: var(--blue-color);
+}

@@ -21,6 +21,8 @@ a {
 
 :root {
   --blue-color: #3e77ee;
+  --dark-color: #213a4c;
+  --cream-color: #f6f6f5;
 }
 
 .signika {
@@ -33,4 +35,20 @@ a {
 
 .blue-color {
   color: var(--blue-color);
+}
+
+.dark-color {
+  color: var(--dark-color);
+}
+
+hr {
+  opacity: 1;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.cream-bg {
+  background-color: var(--cream-color);
 }

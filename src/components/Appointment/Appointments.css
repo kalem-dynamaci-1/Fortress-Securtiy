@@ -1,5 +1,5 @@
 .appointments {
-  height: 90vh;
+  min-height: 90vh;
   background-image: url("https://images.unsplash.com/photo-1606413446724-b6d1ceba8e4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHNlY3VyaXR5JTIwZ3VhcmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
   background-position: center center;
   background-repeat: no-repeat;
