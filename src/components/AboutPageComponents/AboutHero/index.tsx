@@ -7,7 +7,10 @@ const AboutHero = () => {
     <div>
       <Container>
         <Row className="py-5">
-          <Col>
+          <Col
+            md={{ span: 6, order: "first" }}
+            xs={{ span: 12, order: "last" }}
+          >
             <div className="about-us-text">
               <h1 className="fs-3 fw-bold my-3">About Our Company</h1>
               <p className="fs-6">
@@ -25,23 +28,23 @@ const AboutHero = () => {
               </p>
             </div>
           </Col>
-          <Col className="text-center">
+          <Col className="text-center" md={6} xs={12}>
             <img
               src="https://images.unsplash.com/photo-1576807100081-6e12175343c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNlY3VyaXR5JTIwZ3VhcmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
               alt="about-us"
-              className="about-us-img ms-4"
+              className="about-us-img"
             />
           </Col>
         </Row>
         <Row className="py-5">
-          <Col>
+          <Col md={6} xs={12} className="text-center">
             <img
               src="https://images.unsplash.com/photo-1557081999-aed1863cacb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fGFybWVkJTIwZ3VhcmRzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
               alt="about-us"
-              className="about-us-img ms-4"
+              className="about-us-img "
             />
           </Col>
-          <Col>
+          <Col md={6} xs={12}>
             <div className="about-us-text">
               <h1 className="fs-3 fw-bold my-3">Our Mission</h1>
               <p className="fs-6">

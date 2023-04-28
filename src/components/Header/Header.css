@@ -80,7 +80,8 @@
     background-color: #363333;
   }
 
-  .nav-link.nav-link.header-link {
+  .nav-link.nav-link.header-link,
+  .nav-drop-toggle {
     padding: 15px;
     color: #d2cbcb;
     text-transform: uppercase;
