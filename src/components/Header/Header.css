@@ -39,6 +39,23 @@
   transition: all 0.5s ease-in-out;
 }
 
+.nav-drop-toggle {
+  background-color: black;
+  border: none;
+}
+
+.nav-drop-toggle:hover {
+  color: var(--blue-color);
+}
+
+.nav-drop-toggle:hover {
+  background-color: black;
+}
+
+.drop-menu-nav {
+  background-color: black;
+}
+
 @media (max-width: 992px) {
   .toggle-button {
     display: flex;
@@ -52,11 +69,15 @@
   .navbar-header {
     position: absolute;
     bottom: -80vh;
-    height: 80vh;
+    min-height: 80vh;
     width: 80vw;
     background-color: #363333;
     left: -80vw;
     transition: all 0.5s ease-in-out;
+  }
+
+  .nav-drop-toggle {
+    background-color: #363333;
   }
 
   .nav-link.nav-link.header-link {
@@ -84,5 +105,10 @@
   .navbar-header.open {
     left: 0px;
     transition: all 0.5s ease-in-out;
+  }
+
+  .dropdown-menu.show {
+    position: absolute;
+    width: 80vw;
   }
 }
