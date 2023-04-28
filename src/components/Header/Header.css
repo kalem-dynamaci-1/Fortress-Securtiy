@@ -51,7 +51,7 @@
 
   .navbar-header {
     position: absolute;
-    bottom: -549px;
+    bottom: -80vh;
     height: 80vh;
     width: 80vw;
     background-color: #363333;
