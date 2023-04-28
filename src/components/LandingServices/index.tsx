@@ -25,6 +25,8 @@ function SecurityServices() {
           <hr className="service-line" />
           <Row className="my-3">
             <Col
+              xs={6}
+              md={3}
               onClick={() => setActiveObj(serviceObjList[0])}
               className={`mt-2 hover border-right ${
                 activeObj.title === "Cash In Transit Service"
@@ -36,8 +38,10 @@ function SecurityServices() {
               <h4 className="fs-3 mt-3">CIT Services</h4>
             </Col>
             <Col
+              xs={6}
+              md={3}
               onClick={() => setActiveObj(serviceObjList[1])}
-              className={`mt-2 hover border-right ${
+              className={`mt-2 hover border-right mobile-cctv-service ${
                 activeObj.title === "CCTV & Alarms"
                   ? "blue-color"
                   : "dark-colour"
@@ -47,8 +51,10 @@ function SecurityServices() {
               <h4 className="fs-3 mt-3">CCTV & Alarms</h4>
             </Col>
             <Col
+              xs={6}
+              md={3}
               onClick={() => setActiveObj(serviceObjList[2])}
-              className={`mt-2 hover border-right ${
+              className={`mt-2 hover border-right  ${
                 activeObj.title === "GPS Services"
                   ? "blue-color"
                   : "dark-colour"
@@ -58,6 +64,8 @@ function SecurityServices() {
               <h4 className="fs-3 mt-3">GPS Services</h4>
             </Col>
             <Col
+              xs={6}
+              md={3}
               onClick={() => setActiveObj(serviceObjList[3])}
               className={`mt-2 hover ${
                 activeObj.title === "Protection Services"

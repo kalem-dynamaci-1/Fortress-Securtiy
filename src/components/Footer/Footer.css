@@ -83,3 +83,9 @@
   margin-bottom: 20px;
   border-radius: 0;
 }
+
+@media (max-width: 768px) {
+  .footer-col {
+    margin-bottom: 50px;
+  }
+}

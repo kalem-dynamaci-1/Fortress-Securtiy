@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
+  const [active, setActive] = useState(false);
   return (
     <Navbar expand="lg" className="navy-black navy signika py-3" sticky="top">
       <Container>
@@ -11,26 +12,32 @@ const Header = () => {
           <Link to="/">Fortress</Link>
         </Navbar.Brand>
 
-        <Navbar.Collapse id="navberScroll" className="justify-content-evenly">
-          <Nav>
-            <Link to="/">
-              <span className="nav-link"> Home</span>
-            </Link>
+        <Nav className={active ? "navbar-header open" : "navbar-header"}>
+          <Link to="/">
+            <span className="nav-link header-link"> Home</span>
+          </Link>
 
-            <Link to="/about">
-              <span className="nav-link"> About</span>
-            </Link>
+          <Link to="/about">
+            <span className="nav-link header-link"> About</span>
+          </Link>
 
-            <Link to="/service">
-              <span className="nav-link"> Services</span>
-            </Link>
+          <Link to="/service">
+            <span className="nav-link header-link"> Services</span>
+          </Link>
 
-            <Link to="/service">
-              <span className="nav-link"> Contact Us</span>
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-        <Navbar.Toggle aria-controls="navbarScroll" className="nav-toggle" />
+          <Link to="/service">
+            <span className="nav-link header-link"> Contact Us</span>
+          </Link>
+        </Nav>
+
+        <div
+          className={active ? "toggle-button open" : "toggle-button"}
+          onClick={() => setActive(!active)}
+        >
+          <span className="bar1"></span>
+          <span className="bar2"></span>
+          <span className="bar3"></span>
+        </div>
       </Container>
     </Navbar>
   );
