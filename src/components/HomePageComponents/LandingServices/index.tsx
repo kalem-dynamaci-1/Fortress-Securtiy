@@ -6,7 +6,7 @@ import { serviceObjList } from "./helper";
 import "./SecurityServices.css";
 import { useState } from "react";
 import DisplayServiceContainer from "../DisplayServiceContainer";
-import { DisplayServiceType } from "../../types";
+import { DisplayServiceType } from "../../../types";
 
 function SecurityServices() {
   const [activeObj, setActiveObj] = useState<DisplayServiceType>(

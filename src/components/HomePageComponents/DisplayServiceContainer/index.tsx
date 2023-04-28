@@ -1,5 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
-import { DisplayServiceType } from "../../types";
+import { DisplayServiceType } from "../../../types";
 import "./DisplayService.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 

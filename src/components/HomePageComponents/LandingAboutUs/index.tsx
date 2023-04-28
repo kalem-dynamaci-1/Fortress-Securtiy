@@ -21,7 +21,7 @@ const LandingPageAboutUs = () => {
                 >
                   <div>
                     <GoShield size={60} />
-                    <span className="blue-color fs-3 fw-bold mt-5"> 10+ </span>
+                    <span className="blue-color fs-3 fw-bold mt-5"> 40+ </span>
                   </div>
                   <p className="fs-5 fw-bold dark-color mt-2">
                     YEARS EXPERIENCE

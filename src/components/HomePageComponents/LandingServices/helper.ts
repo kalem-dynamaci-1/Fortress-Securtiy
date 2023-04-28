@@ -1,4 +1,4 @@
-import { DisplayServiceType } from "../../types";
+import { DisplayServiceType } from "../../../types";
 
 export const serviceObjList: DisplayServiceType[] = [
   {

@@ -93,6 +93,10 @@ const Header = () => {
           <Link to="/contact-us">
             <span className="nav-link header-link"> Contact Us</span>
           </Link>
+
+          <Link to="/careers">
+            <span className="nav-link header-link"> Careers</span>
+          </Link>
         </Nav>
 
         <div

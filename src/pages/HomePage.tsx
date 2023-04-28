@@ -1,8 +1,8 @@
 import React from "react";
-import HeroSection from "../components/Hero";
-import Appointment from "../components/Appointment";
-import LandingPageAboutUs from "../components/LandingAboutUs";
-import SecurityServices from "../components/LandingServices";
+import HeroSection from "../components/HomePageComponents/Hero";
+import Appointment from "../components/HomePageComponents/Appointment";
+import LandingPageAboutUs from "../components/HomePageComponents/LandingAboutUs";
+import SecurityServices from "../components/HomePageComponents/LandingServices";
 
 const Homepage = () => {
   return (
