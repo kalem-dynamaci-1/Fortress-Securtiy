@@ -1,8 +1,13 @@
 import { ServicePageObj } from "../../types";
-import protection from "../../assets/images/services/protection.png";
-import personal from "../../assets/images/services/personal.png";
-import cit from "../../assets/images/services/cash-in-transit.png";
-import cam from "../../assets/images/services/scam.png";
+import protection from "../../assets/img/protection.png";
+import personal from "../../assets/img/personal.png";
+import cit from "../../assets/img/cash-in-transit.png";
+import cam from "../../assets/img/scam.png";
+import alarm from "../../assets/img/alarm.png";
+import courier from "../../assets/img/courier.png";
+import investigation from "../../assets/img/investigation.png";
+import event from "../../assets/img/event.png";
+import gps from "../../assets/img/gps.png";
 
 export const servicesList: ServicePageObj[] = [
   {
@@ -79,6 +84,92 @@ Overall, Fortress Security's CCTV, Access Control and Alarms service is an essen
     img_urls: [
       "https://images.unsplash.com/photo-1549109926-58f039549485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2VjdXJpdHklMjBjYW1lcmFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       "https://images.unsplash.com/photo-1617897711385-df9c86b7dfe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2VjdXJpdHklMjBjYW1lcmFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    ],
+  },
+  {
+    title: "Alarm Monitoring",
+    shortDescription:
+      "Fortress Security Services Limited’s monitoring packages all include professional monitoring 24 hours a day, 7 days a week, and 365 days a year.",
+    longDescription: `Alarm Monitoring is an essential service offered by Fortress Security, a leading security company. It involves constant and real-time monitoring of alarm systems installed at various locations, including homes, businesses, and government buildings, to ensure that any security breach or emergency is quickly detected and responded to. 
+
+When an alarm is triggered, the monitoring system at Fortress Security's central station receives an alert, and trained professionals quickly assess the situation. They use advanced technology to identify the location of the alarm and determine the nature of the emergency, whether it's a fire, a break-in, or a medical emergency. 
+
+Once the nature of the emergency is determined, the monitoring team dispatches the appropriate emergency services, such as the police, fire department, or medical services. In addition, Fortress Security can also send its own highly trained response teams to the location to assist in the resolution of the emergency.
+
+With Fortress Security's Alarm Monitoring service, you can rest assured that your property and loved ones are always protected. The service is available 24/7, 365 days a year, and is supported by state-of-the-art technology and highly trained professionals who are dedicated to your safety and security.`,
+    category: "monitoring",
+    thumbnail: alarm,
+    img_urls: [
+      "https://images.unsplash.com/photo-1549109926-58f039549485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2VjdXJpdHklMjBjYW1lcmFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1617897711385-df9c86b7dfe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2VjdXJpdHklMjBjYW1lcmFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    ],
+  },
+  {
+    title: "Courier Services",
+    shortDescription:
+      "We deliver all types of packages. Including messages, money and mail. All packages are secure and delivered on a timely basis. Packages can also be tracked up until delivery.",
+    longDescription: `Fortress Security's courier service is a highly reliable and secure way to transport important items and documents from one location to another. Our experienced and well-trained security personnel will handle the delivery of your items with the utmost care and attention to detail.
+
+We offer a variety of courier services, including same-day and overnight delivery, as well as custom delivery options to meet your specific needs. Our fleet of secure vehicles and trained drivers ensure that your items arrive safely and on time, every time.
+
+At Fortress Security, we understand the importance of confidentiality and security when it comes to courier services. That's why we use state-of-the-art technology and protocols to safeguard your items during transport, including GPS tracking, secure locking mechanisms, and real-time monitoring.
+
+Whether you need to transport legal documents, financial records, or high-value items, our courier service provides you with peace of mind knowing that your items are in the hands of trusted and reliable security professionals.`,
+    category: "courier",
+    thumbnail: courier,
+    img_urls: [
+      "https://images.unsplash.com/photo-1612630741022-b29ec17d013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y291cmllcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1543499459-d1460946bdc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y291cmllcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    ],
+  },
+  {
+    title: "Investigations",
+    shortDescription:
+      "Some of our services are: Fraud, Internal Theft Investigations, Investigations, Burglary and/or Robbery Investigation, Surveillance, Missing Persons Investigations, Child Custody Investigations and Domestic Relationships Investigations.",
+    longDescription: `Fortress Security's investigation services are designed to help individuals, businesses, and organizations uncover vital information and evidence related to a wide range of security concerns. Our team of highly trained and experienced investigators uses the latest technology and techniques to gather and analyze data, conduct interviews, and uncover facts that can be critical to your safety and security.
+
+Whether you need assistance with a complex investigation related to fraud, theft, or other criminal activity, or you simply need help gathering information related to a sensitive personal or professional matter, our team is here to help. We take a comprehensive approach to investigations, working closely with you to understand your needs and concerns, and tailoring our services to meet your specific requirements.
+
+At Fortress Security, we understand that every situation is unique, and we pride ourselves on our ability to provide customized investigation services that are tailored to the individual needs of our clients. Whether you require discreet surveillance, in-depth research and analysis, or expert witness testimony, we have the expertise and resources to get the job done. Contact us today to learn more about how our investigation services can help you achieve your security goals.`,
+    category: "other",
+    thumbnail: investigation,
+    img_urls: [
+      "https://images.unsplash.com/photo-1605806616949-1e87b487fc2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW52ZXN0aWdhdGlvbiUyMHRoZWZ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1532619187608-e5375cab36aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGludmVzdGlnYXRpb24lMjB0aGVmdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    ],
+  },
+  {
+    title: "Special Event Security",
+    shortDescription:
+      "We provide security for different sized events and ensure that all events are well monitored while maintaining a high level of professionalism.",
+    longDescription: `Special Event Security is a service offered by Fortress Security, a professional security company. Our expert security personnel are specially trained to provide top-notch security coverage for events of all types and sizes. We understand that events can present unique security challenges, and that's why we customize our security plans to meet the specific needs of each event we cover.
+
+Our team of security professionals is equipped to handle everything from crowd control to emergency response. We work closely with event organizers to assess the risks and vulnerabilities of the event, and we develop a comprehensive security plan that ensures the safety of all attendees and staff.
+
+At Fortress Security, we understand that every event is different, and that's why we offer customizable security solutions that meet the unique needs of each event. Whether you're planning a large-scale music festival or a small corporate gathering, our experienced security team will provide the protection you need to ensure a safe and secure event. We take pride in our commitment to excellence, and we're dedicated to providing the highest level of security services to all of our clients.`,
+    category: "other",
+    thumbnail: event,
+    img_urls: [
+      "https://images.unsplash.com/photo-1659273144088-202efb9b86c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFydHklMjBzZWN1cml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1429514513361-8fa32282fd5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhcnR5JTIwc2VjdXJpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    ],
+  },
+  {
+    title: "GPS Services",
+    shortDescription:
+      "We provide a range of GPS services including Real Time Monitoring & Historical Data, Geofence & Routing Tools, Comprehensive Reporting, Alerts and notifications.",
+    longDescription: `GPS services are an essential component of modern security solutions. At Fortress Security, we understand the importance of having real-time information about the location of your valuable assets, vehicles, or personnel. Our GPS services provide you with an accurate and reliable way to track your assets and ensure their safety and security.
+
+Our GPS tracking solutions are designed to give you a comprehensive view of your assets, with the ability to track their location, speed, and direction of travel. Our systems are easy to use and come with a user-friendly interface that allows you to monitor your assets in real-time. You can access our GPS services via a web portal or a mobile app, giving you the flexibility to keep tabs on your assets from anywhere, at any time.
+
+Our GPS services are suitable for a range of industries, including logistics, transportation, construction, and healthcare. We provide customized GPS solutions tailored to your specific needs, ensuring that you have the right tools to keep your assets safe and secure. Whether you need to track a single vehicle or manage a fleet of vehicles, our GPS services can help you optimize your operations, improve efficiency, and reduce costs.
+
+At Fortress Security, we prioritize the security and privacy of your data. Our GPS systems are designed to comply with industry standards, and we employ robust security protocols to protect your data from unauthorized access. With our GPS services, you can rest assured that your assets are in safe hands.`,
+    category: "monitoring",
+    thumbnail: gps,
+    img_urls: [
+      "https://images.unsplash.com/photo-1603638725135-928baf863eff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3BzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1618861859575-b6e43d10922a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3BzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     ],
   },
 ];
