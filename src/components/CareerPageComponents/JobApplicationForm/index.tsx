@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEventHandler, useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import "./JobApplication.css";
 import { ResumeData } from "../../../types";
