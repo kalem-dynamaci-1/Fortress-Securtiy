@@ -53,7 +53,12 @@ function JobApplicationForm() {
 
   return (
     <div>
-      <h1 className="text-center">Job Application Form</h1>
+      <h1 className="text-center mb-2">Job Application Form</h1>
+      <p className="text-center">
+        Thank you for your interest in Forstress Security. Please fill out the
+        below form and await a response from our team. We will be in touch with
+        you shortly.
+      </p>
       <Form
         onSubmit={handleSubmit}
         className="job-application-form p-3"

@@ -29,6 +29,11 @@ const Header = () => {
 
             <Dropdown.Menu className="drop-menu-nav">
               <Dropdown.Item as={"div"}>
+                <Link to="/services">
+                  <span className="nav-link header-link">See All</span>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item as={"div"}>
                 <Link to="/service/protection-officers">
                   <span className="nav-link header-link">
                     Protection Officers

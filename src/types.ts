@@ -16,3 +16,12 @@ export interface ResumeData {
   gender: string;
   resume: null | File;
 }
+
+export interface ServicePageObj {
+  title: string;
+  shortDescription: string;
+  img_urls: string[];
+  longDescription: string;
+  thumbnail: string;
+  category: string;
+}
