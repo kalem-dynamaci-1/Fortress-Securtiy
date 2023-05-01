@@ -54,6 +54,8 @@
 
 .drop-menu-nav {
   background-color: black;
+  height: 57vh;
+  overflow-y: scroll;
 }
 
 @media (max-width: 992px) {
