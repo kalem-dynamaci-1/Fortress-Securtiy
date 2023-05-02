@@ -9,7 +9,7 @@ import investigation from "../../assets/img/investigation.png";
 import event from "../../assets/img/event.png";
 import gps from "../../assets/img/gps.png";
 
-export const servicesList: ServicePageObj[] = [
+const servicesList: ServicePageObj[] = [
   {
     title: "Protection Officers",
     shortDescription:
@@ -173,3 +173,5 @@ At Fortress Security, we prioritize the security and privacy of your data. Our G
     ],
   },
 ];
+
+export default servicesList;

@@ -1,0 +1,56 @@
+.service-page {
+  background: linear-gradient(135deg, #3e77ee, #90caf9);
+  padding: 50px;
+  color: white;
+}
+
+.service-page h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.service-page .long-description p {
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.service-page .carousel img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.service-page .carousel img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.service-page .carousel .carousel-control-next-icon,
+.service-page .carousel .carousel-control-prev-icon {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #3e77ee;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3366cc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.16);
+}
