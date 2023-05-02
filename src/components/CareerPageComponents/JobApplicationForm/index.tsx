@@ -52,7 +52,7 @@ function JobApplicationForm() {
   };
 
   return (
-    <div>
+    <div className="job-application-container">
       <h1 className="text-center mb-2">Job Application Form</h1>
       <p className="text-center">
         Thank you for your interest in Forstress Security. Please fill out the

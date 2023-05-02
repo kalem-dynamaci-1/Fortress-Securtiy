@@ -1,3 +1,39 @@
+/* JobApplication.css */
 .job-application-form {
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.job-application-container button[type="submit"] {
+  background-color: #3e77ee;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.job-application-container button[type="submit"]:hover {
+  background-color: #2c5bcc;
+}
+
+.job-application-container input[type="text"],
+.job-application-container input[type="email"],
+.job-application-container input[type="tel"],
+.job-application-container textarea,
+.job-application-container select {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.job-application-container input[type="text"]:focus,
+.job-application-container input[type="email"]:focus,
+.job-application-container input[type="tel"]:focus,
+.job-application-container textarea:focus,
+.job-application-container select:focus {
+  border-color: #3e77ee;
+  box-shadow: 0 0 0 0.2rem rgba(62, 119, 238, 0.25);
 }
