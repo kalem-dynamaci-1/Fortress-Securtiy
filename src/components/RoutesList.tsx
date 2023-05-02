@@ -6,6 +6,7 @@ import ServicesPage from "../pages/ServicesPage";
 import ContactUsPage from "../pages/ContactUsPage";
 import CareersPage from "../pages/CareersPage";
 import ServicePage from "../pages/ServicePage";
+import NotFoundPage from "./NotFoundComponent";
 
 const RoutesList = () => {
   return (
@@ -15,7 +16,8 @@ const RoutesList = () => {
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/contact-us" element={<ContactUsPage />} />
       <Route path="/careers" element={<CareersPage />} />
-      <Route path="/services/:title" element={<ServicePage />} />"
+      <Route path="/services/:title" element={<ServicePage />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 };
