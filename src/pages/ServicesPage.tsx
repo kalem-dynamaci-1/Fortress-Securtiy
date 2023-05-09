@@ -21,7 +21,7 @@ const ServicesPage = () => {
   });
 
   return (
-    <Container>
+    <Container fluid>
       <h1 className="display-2 my-3 text-center fw-bold">Services</h1>
 
       <Row className="my-4">
@@ -42,8 +42,8 @@ const ServicesPage = () => {
       <Row>
         {filteredServices.map((service, index) => {
           return (
-            <Col key={index} sm={4}>
-              <Card className="mb-4" style={{ minHeight: "550px" }}>
+            <Col key={index} md={6} lg={4} xs={12}>
+              <Card className="mb-4" style={{ minHeight: "700px" }}>
                 <Card.Img
                   variant="top"
                   src={service.thumbnail}
@@ -55,7 +55,7 @@ const ServicesPage = () => {
                   }}
                 />
                 <Card.Body>
-                  <Card.Title>{service.title}</Card.Title>
+                  <Card.Title className="fw-bold">{service.title}</Card.Title>
                   <Card.Text>{service.shortDescription}</Card.Text>
                   <Link to={`/services/${service.title}`}>
                     <Button variant="primary">Read More</Button>

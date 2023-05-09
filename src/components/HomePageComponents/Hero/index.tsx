@@ -11,12 +11,16 @@ function HeroSection() {
           alt="First slide"
         />
         <Carousel.Caption className="caro-text text-start">
-          <p className="blue-color">Get A Security To Secure Your Life</p>
+          <p className="blue-color">
+            {" "}
+            Protecting what matters most - Your fortress of security.
+          </p>
           <h3 className="fs-1 mb-4 text-uppercase">We Supply Protection</h3>
           <p>
-            Fortress is a leader in the fields of commercial automation and
-            integrated security management systems providing the latest in
-            products and services in these fields.
+            At Fortress Security, we offer top-of-the-line security services
+            that give you the peace of mind you deserve. Our team of experts is
+            dedicated to defending your property against any threat, big or
+            small.
           </p>
 
           <Button variant="outline-primary" className="p-3 mt-2">
@@ -32,12 +36,14 @@ function HeroSection() {
         />
 
         <Carousel.Caption className="caro-text text-start">
-          <p className="blue-color">Get A Security To Secure Your Life</p>
+          <p className="blue-color">
+            Defending your peace of mind with advanced security solutions.
+          </p>
           <h3 className="fs-1 mb-4 text-uppercase">Service To Our Clients</h3>
           <p>
-            Fortress is a leader in the fields of commercial automation and
-            integrated security management systems providing the latest in
-            products and services in these fields.
+            From high-tech surveillance systems to 24/7 monitoring, we've got
+            you covered. Don't wait until it's too late - protect your assets
+            with Fortress Security today!
           </p>
           <Button variant="outline-primary" className="p-3 mt-2">
             Contact Us

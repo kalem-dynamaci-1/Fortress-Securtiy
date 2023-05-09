@@ -12,7 +12,6 @@ const DisplayServiceContainer: React.FC<Props> = ({ serviceObj }) => {
     <AnimationOnScroll
       animateIn="animate__fadeInLeft"
       duration={1}
-      delay={100}
       animateOnce={true}
     >
       <div className="py-5 cream-bg">

@@ -21,12 +21,13 @@
 
 .navy-black .nav-link {
   color: black;
+  font-size: 1.3rem;
 }
 
 .toggle-button {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 45px;
+  right: 45px;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -44,10 +45,9 @@
   cursor: pointer;
 }
 
-/* .drop-menu-header {
-  color: black;
-  background-color: white;
-} */
+.drop-menu-header {
+  font-size: 1.3rem;
+}
 
 .drop-menu-header {
   margin-top: 8px;
