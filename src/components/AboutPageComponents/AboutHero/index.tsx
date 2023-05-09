@@ -46,7 +46,7 @@ const AboutHero = () => {
           </Col>
           <Col md={6} xs={12}>
             <div className="about-us-text">
-              <h1 className="fs-3 fw-bold my-3">Our Mission</h1>
+              <h1 className="fs-3 fw-bold my-3">Our Approach</h1>
               <p className="fs-6">
                 Our ‘Fortress protectors’ are constantly provided with practical
                 training systems and modern anticrime strategies to provide the

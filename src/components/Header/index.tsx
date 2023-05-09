@@ -1,30 +1,53 @@
 import React, { useState } from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Image, Nav, Navbar } from "react-bootstrap";
+import { Link, useLocation } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import "./Header.css";
 import servicesList from "../ServicePageComponents/ServiceHelper";
+import fortressLogo from "../../assets/img/fortress-logo.png";
 
 const Header = () => {
   const [active, setActive] = useState(false);
+  const location = useLocation();
+  const path = location.pathname;
   return (
     <Navbar expand="lg" className="navy-black navy signika py-3" sticky="top">
       <Container>
         <Navbar.Brand>
-          <Link to="/">Fortress</Link>
+          <Link to="/">
+            <Image src={fortressLogo} alt="Fortress Logo" width={80} />
+          </Link>
         </Navbar.Brand>
 
         <Nav className={active ? "navbar-header open" : "navbar-header"}>
           <Link to="/">
-            <span className="nav-link header-link"> Home</span>
+            <span
+              className={`nav-link header-link me-3 ${
+                path === "/" && "active"
+              }`}
+            >
+              {" "}
+              Home
+            </span>
           </Link>
 
           <Link to="/about">
-            <span className="nav-link header-link"> About</span>
+            <span
+              className={`nav-link header-link me-3 ${
+                path === "/about" && "active"
+              }`}
+            >
+              {" "}
+              About
+            </span>
           </Link>
 
-          <Dropdown>
-            <Dropdown.Toggle className="nav-drop-toggle" id="dropdown-basic">
+          <Dropdown className="drop-menu-header me-3">
+            <Dropdown.Toggle
+              className="nav-drop-toggle"
+              as={"span"}
+              id="dropdown-basic"
+            >
               Services
             </Dropdown.Toggle>
 
@@ -49,11 +72,25 @@ const Header = () => {
           </Dropdown>
 
           <Link to="/contact-us">
-            <span className="nav-link header-link"> Contact Us</span>
+            <span
+              className={`nav-link header-link me-3 ${
+                path === "/contact-us" && "active"
+              }`}
+            >
+              {" "}
+              Contact Us
+            </span>
           </Link>
 
           <Link to="/careers">
-            <span className="nav-link header-link"> Careers</span>
+            <span
+              className={`nav-link header-link me-3 ${
+                path === "/careers" && "active"
+              }`}
+            >
+              {" "}
+              Careers
+            </span>
           </Link>
         </Nav>
 

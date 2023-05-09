@@ -1,0 +1,20 @@
+.statement {
+  cursor: pointer;
+}
+
+.statement.active {
+  color: var(--blue-color);
+}
+
+.st-1,
+.st-2 {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .st-1,
+  .st-2 {
+    border-right: none;
+    margin-bottom: 20px;
+  }
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import AboutHero from "../components/AboutPageComponents/AboutHero";
-import SecurityApproach from "../components/AboutPageComponents/SecurityApproach";
+import MissionStatements from "../components/AboutPageComponents/MissionStatements";
 
 const AboutPage = () => {
   return (
     <div>
       <AboutHero />
-      <SecurityApproach />
+      <MissionStatements />
     </div>
   );
 };
