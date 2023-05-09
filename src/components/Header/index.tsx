@@ -15,7 +15,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand>
           <Link to="/">
-            <Image src={fortressLogo} alt="Fortress Logo" width={80} />
+            <Image src={fortressLogo} alt="Fortress Logo" width={100} />
           </Link>
         </Navbar.Brand>
 
